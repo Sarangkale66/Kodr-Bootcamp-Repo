@@ -55,7 +55,7 @@ nav * {
 }
 
 .secondPage{
-  margin: 0px auto;
+  margin: 0 auto;
   height: 70%;
   width: 80%;
   text-align: center;
@@ -68,7 +68,7 @@ nav * {
 
 .secondPage p{
   width: 40%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .secondPage a{
@@ -181,7 +181,6 @@ footer div {
   flex-direction: column;
   gap: 1vh;
   text-decoration: none;
-
 }
 
 .firstFooter a{
@@ -215,4 +214,61 @@ footer div {
   color: white;
 }
 
+/* For phones */
+@media (max-width: 480px) {
+  /* styles for mobile phones */
+  nav *{
+    font-size: 2.9vw;
+  }
 
+  #hero h1 {
+    font-size: 10.5vw;
+  }
+
+  .secondPage h1 {
+    margin-bottom: 20%;
+  }
+
+  .secondPage p {
+    width: 90%;
+    margin-bottom: 26%;
+  }
+
+  
+  .thirdPage h2 {
+    margin-bottom: 13%;
+  }
+
+  .thirdPage {
+    height: 170%;
+  }
+
+  .thirdPage .shop {
+    flex-direction: column;
+    gap: 0vw;
+  }
+
+  .shop > div {
+    width: 100%;
+    height: 44vh;
+  }
+
+  section p {
+    margin-bottom: 9% ;
+  }
+
+
+  .forthPage input {
+    width: 56%;
+    border: 0.5px solid black;
+  }
+
+  .forthPage button {
+    width: 25%;
+  }
+
+  footer{
+    flex-direction: column;
+  }
+
+}
