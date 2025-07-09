@@ -167,7 +167,7 @@ footer {
   width: 100%;
   padding: 5%;
   display: flex;
-  background-color: rgb(59, 158, 105);
+  background-color: rgb(0, 25, 30);
 }
 
 footer div {
@@ -201,7 +201,4 @@ footer div {
   width: 100%;
 }
 
-.bottomFoot{
-  
-}
 
