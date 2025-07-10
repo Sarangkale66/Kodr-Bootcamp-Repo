@@ -214,10 +214,8 @@ footer div {
   color: white;
 }
 
-/* For phones */
 @media (max-width: 480px) {
-  /* styles for mobile phones */
-  nav *{
+  nav * {
     font-size: 2.9vw;
   }
 
@@ -233,7 +231,6 @@ footer div {
     width: 90%;
     margin-bottom: 26%;
   }
-
   
   .thirdPage h2 {
     margin-bottom: 13%;
@@ -256,7 +253,6 @@ footer div {
   section p {
     margin-bottom: 9% ;
   }
-
 
   .forthPage input {
     width: 56%;
