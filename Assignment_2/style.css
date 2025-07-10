@@ -379,12 +379,12 @@ footer .first h3{
 }
 footer .first input{
   padding: 0.5vh 2vw;
+  border: 1px solid white;
   background-color: black;
   color: white;
 }
 footer .first button{
-  padding: 2vh 2vw;
-
+  padding: 0.5vh  2vw;
   color: black;
   background-color: white;
 }
@@ -397,9 +397,9 @@ footer .second{
   height: 100%;
   width: 100%;
   display: flex;
-  margin-top: 10vh;
   gap: 3vh;
   flex-direction: column;
+  padding-top: 10vh;
 }
 footer .second a{
   text-decoration: none;
@@ -409,9 +409,9 @@ footer .third{
   height: 100%;
   width: 100%;
   display: flex;
-  margin-top: 10vh;
   gap: 3vh;
   flex-direction: column;
+  padding-top: 10vh;
 }
 footer .third a{
   text-decoration: none;
