@@ -11,6 +11,7 @@ html,body{
   font-family: "Roboto", sans-serif;
 }
 nav{
+  margin: 2vh 0;
   padding: 0 10vh ;
   height: 7%;
   width: 100%;
@@ -89,6 +90,10 @@ main .left, main .right  {
   font-weight: 800;
   border: none;
 }
+.page2{
+  height: 40%;
+  width: 100%;
+}
 @media ( max-width:900px ) {
   nav .name{
     display: none;
@@ -101,6 +106,11 @@ main .left, main .right  {
     padding: 0px 10vh;
   } 
   main .grid{
+    flex-direction: column;
+  }
+}
+@media ( max-width:500px ) {
+  .flex{
     flex-direction: column;
   }
 }
