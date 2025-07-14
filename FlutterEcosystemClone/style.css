@@ -243,7 +243,19 @@ footer .btm-text div {
   .but-three .second{
     padding-left: 15em;
   }
-  .but-three  .media{
+  .but-three .media{
     width: 100%;
+  }
+  .but-four .second{
+    width: 50%;
+  }
+  .but-four .media{
+    width: 50%;
+  }
+  .but-five .media{
+    width: 45%;
+  }
+  .but-five .second{
+    width: 55%;
   }
 }
